@@ -10,6 +10,8 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("111");
+            Console.ReadLine();
         }
     }
 }
