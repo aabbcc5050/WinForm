@@ -1,0 +1,6 @@
+I:\github\WinForm\C#Learn_Console\ConsoleApp13\ConsoleApp13\bin\Debug\ConsoleApp13.exe.config
+I:\github\WinForm\C#Learn_Console\ConsoleApp13\ConsoleApp13\bin\Debug\ConsoleApp13.exe
+I:\github\WinForm\C#Learn_Console\ConsoleApp13\ConsoleApp13\bin\Debug\ConsoleApp13.pdb
+I:\github\WinForm\C#Learn_Console\ConsoleApp13\ConsoleApp13\obj\Debug\ConsoleApp13.csprojResolveAssemblyReference.cache
+I:\github\WinForm\C#Learn_Console\ConsoleApp13\ConsoleApp13\obj\Debug\ConsoleApp13.exe
+I:\github\WinForm\C#Learn_Console\ConsoleApp13\ConsoleApp13\obj\Debug\ConsoleApp13.pdb

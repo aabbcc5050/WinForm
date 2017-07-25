@@ -1,0 +1,5 @@
+I:\github\WinForm\ConsoleApp5\ConsoleApp5\bin\Debug\ConsoleApp5.exe.config
+I:\github\WinForm\ConsoleApp5\ConsoleApp5\bin\Debug\ConsoleApp5.exe
+I:\github\WinForm\ConsoleApp5\ConsoleApp5\bin\Debug\ConsoleApp5.pdb
+I:\github\WinForm\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.exe
+I:\github\WinForm\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.pdb

@@ -1,0 +1,5 @@
+I:\github\WinForm\C#Learn_Console\ConsoleApp9\ConsoleApp9\bin\Debug\ConsoleApp9.exe.config
+I:\github\WinForm\C#Learn_Console\ConsoleApp9\ConsoleApp9\bin\Debug\ConsoleApp9.exe
+I:\github\WinForm\C#Learn_Console\ConsoleApp9\ConsoleApp9\bin\Debug\ConsoleApp9.pdb
+I:\github\WinForm\C#Learn_Console\ConsoleApp9\ConsoleApp9\obj\Debug\ConsoleApp9.exe
+I:\github\WinForm\C#Learn_Console\ConsoleApp9\ConsoleApp9\obj\Debug\ConsoleApp9.pdb

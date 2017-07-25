@@ -1,0 +1,6 @@
+I:\github\WinForm\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+I:\github\WinForm\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+I:\github\WinForm\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+I:\github\WinForm\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csprojResolveAssemblyReference.cache
+I:\github\WinForm\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+I:\github\WinForm\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.pdb

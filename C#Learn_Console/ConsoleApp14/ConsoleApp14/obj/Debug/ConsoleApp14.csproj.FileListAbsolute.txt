@@ -1,0 +1,6 @@
+I:\github\WinForm\C#Learn_Console\ConsoleApp14\ConsoleApp14\bin\Debug\ConsoleApp14.exe.config
+I:\github\WinForm\C#Learn_Console\ConsoleApp14\ConsoleApp14\bin\Debug\ConsoleApp14.exe
+I:\github\WinForm\C#Learn_Console\ConsoleApp14\ConsoleApp14\bin\Debug\ConsoleApp14.pdb
+I:\github\WinForm\C#Learn_Console\ConsoleApp14\ConsoleApp14\obj\Debug\ConsoleApp14.csprojResolveAssemblyReference.cache
+I:\github\WinForm\C#Learn_Console\ConsoleApp14\ConsoleApp14\obj\Debug\ConsoleApp14.exe
+I:\github\WinForm\C#Learn_Console\ConsoleApp14\ConsoleApp14\obj\Debug\ConsoleApp14.pdb

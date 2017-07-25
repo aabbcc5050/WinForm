@@ -1,0 +1,5 @@
+I:\github\WinForm\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+I:\github\WinForm\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+I:\github\WinForm\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+I:\github\WinForm\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+I:\github\WinForm\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
