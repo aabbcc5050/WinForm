@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp11
+namespace WindowsFormsApp10
 {
     public partial class Form1 : Form
     {
@@ -17,7 +17,6 @@ namespace WindowsFormsApp11
         {
             InitializeComponent();
         }
-
 
         Class1 class1 = new Class1();
         private void Form1_Load(object sender, EventArgs e)

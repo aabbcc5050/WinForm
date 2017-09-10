@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1BC84CA4-E958-4F13-8E57-50997F9860B2}</ProjectGuid>
+    <ProjectGuid>{D1F3F372-40EE-46EB-BBDD-1F008583D20A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WindowsFormsApp1</RootNamespace>
     <AssemblyName>WindowsFormsApp1</AssemblyName>
@@ -80,7 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
-      <Project>{43CFD499-E80F-41BD-8C39-7D2FB25942BF}</Project>
+      <Project>{A997972F-A207-4F65-81E9-7875189CC533}</Project>
       <Name>ClassLibrary1</Name>
     </ProjectReference>
   </ItemGroup>
