@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1BC84CA4-E958-4F13-8E57-50997F9860B2}</ProjectGuid>
+    <ProjectGuid>{6F3B7D1A-0B94-4C72-81CF-02A421562F74}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsApp1</RootNamespace>
-    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <RootNamespace>WindowsFormsApp11</RootNamespace>
+    <AssemblyName>WindowsFormsApp11</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -51,10 +51,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -79,8 +88,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
-      <Project>{43CFD499-E80F-41BD-8C39-7D2FB25942BF}</Project>
+    <ProjectReference Include="..\ClassLibrary2\ClassLibrary1.csproj">
+      <Project>{FD220363-B3DC-458B-A040-1B6A74EA3E10}</Project>
       <Name>ClassLibrary1</Name>
     </ProjectReference>
   </ItemGroup>

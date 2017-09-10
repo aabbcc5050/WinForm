@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1
+﻿namespace WindowsFormsApp11
 {
     partial class Form1
     {
@@ -37,7 +37,6 @@
             this.ClientSize = new System.Drawing.Size(282, 255);
             this.Name = "Form1";
             this.Text = "服务端";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
