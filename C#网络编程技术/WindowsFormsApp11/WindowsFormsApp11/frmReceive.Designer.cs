@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtPOP = new System.Windows.Forms.TextBox();
-            this.txtMail = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.txtPwd = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtMail = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtPOP = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtNum = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,37 +59,15 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
-            // label1
+            // button3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(45, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "POP3服务器";
-            // 
-            // txtPOP
-            // 
-            this.txtPOP.Location = new System.Drawing.Point(138, 33);
-            this.txtPOP.Name = "txtPOP";
-            this.txtPOP.Size = new System.Drawing.Size(464, 25);
-            this.txtPOP.TabIndex = 1;
-            // 
-            // txtMail
-            // 
-            this.txtMail.Location = new System.Drawing.Point(138, 84);
-            this.txtMail.Name = "txtMail";
-            this.txtMail.Size = new System.Drawing.Size(464, 25);
-            this.txtMail.TabIndex = 3;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(45, 87);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 15);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "邮箱名:";
+            this.button3.Location = new System.Drawing.Point(527, 139);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 9;
+            this.button3.Text = "登录";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // txtPwd
             // 
@@ -107,12 +85,44 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "密码:";
             // 
-            // textBox4
+            // txtMail
             // 
-            this.textBox4.Location = new System.Drawing.Point(267, 252);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(188, 25);
-            this.textBox4.TabIndex = 7;
+            this.txtMail.Location = new System.Drawing.Point(138, 84);
+            this.txtMail.Name = "txtMail";
+            this.txtMail.Size = new System.Drawing.Size(464, 25);
+            this.txtMail.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(45, 87);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(60, 15);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "邮箱名:";
+            // 
+            // txtPOP
+            // 
+            this.txtPOP.Location = new System.Drawing.Point(138, 33);
+            this.txtPOP.Name = "txtPOP";
+            this.txtPOP.Size = new System.Drawing.Size(464, 25);
+            this.txtPOP.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(45, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(84, 15);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "POP3服务器";
+            // 
+            // txtNum
+            // 
+            this.txtNum.Location = new System.Drawing.Point(267, 252);
+            this.txtNum.Name = "txtNum";
+            this.txtNum.Size = new System.Drawing.Size(188, 25);
+            this.txtNum.TabIndex = 7;
             // 
             // label4
             // 
@@ -131,6 +141,7 @@
             this.button1.TabIndex = 8;
             this.button1.Text = "接收";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -140,6 +151,7 @@
             this.button2.TabIndex = 9;
             this.button2.Text = "退出";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // richTextBox1
             // 
@@ -149,15 +161,6 @@
             this.richTextBox1.TabIndex = 10;
             this.richTextBox1.Text = "";
             // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(527, 139);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "登录";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // frmReceive
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -166,7 +169,7 @@
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtNum);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmReceive";
@@ -188,7 +191,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPOP;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtNum;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
