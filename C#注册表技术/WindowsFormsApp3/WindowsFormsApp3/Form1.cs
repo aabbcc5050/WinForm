@@ -87,7 +87,9 @@ namespace WindowsFormsApp3
                 RegistryKey hklm = Registry.LocalMachine;
                 RegistryKey sortware = hklm.OpenSubKey(TopKey, true);
                 RegistryKey no1= sortware.OpenSubKey(SubKey, true);
-                no1.DeleteSubKey(key, false);
+                no1.DeleteSubKey(key, false);//删除键和值
+                //no1.DeleteValue(key, false);//删除键值
+                //no1.DeleteSubKeyTree(key, false);//删除,如果有子健,子健也会被删除
                 MessageBox.Show("删除成功");
             }
             catch (Exception ex)
